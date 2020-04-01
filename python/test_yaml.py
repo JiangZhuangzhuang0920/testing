@@ -1,5 +1,6 @@
 import pytest
 import yaml
+import selenium
 
 class Test_yamll:
     @pytest.mark.parametrize(("a","b"),yaml.safe_load(open("./data.yaml")))
